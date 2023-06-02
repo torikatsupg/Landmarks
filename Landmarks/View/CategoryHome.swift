@@ -15,7 +15,7 @@ struct CategoryHome: View {
             List {
                 modelDeta.features[0].image
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
                     .frame(height: 200)
                     .clipped()
                     .listRowInsets(EdgeInsets())
@@ -26,7 +26,7 @@ struct CategoryHome: View {
                 .listRowInsets(EdgeInsets())
                 
             }
-                .navigationTitle("Featured")
+            .navigationTitle("Featured")
         }
     }
 }
