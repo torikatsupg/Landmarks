@@ -25,6 +25,7 @@
 		7281935D2A2A616B00E593C0 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7281935C2A2A616B00E593C0 /* BadgeSymbol.swift */; };
 		7281935F2A2A61AD00E593C0 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7281935E2A2A61AD00E593C0 /* RotatedBadgeSymbol.swift */; };
 		728193612A2A621C00E593C0 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728193602A2A621C00E593C0 /* Badge.swift */; };
+		728193642A2A6B5D00E593C0 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 728193632A2A6B5D00E593C0 /* hikeData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		7281935C2A2A616B00E593C0 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		7281935E2A2A61AD00E593C0 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		728193602A2A621C00E593C0 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		728193632A2A6B5D00E593C0 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		723745512A2A3ACF006DC6BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				728193632A2A6B5D00E593C0 /* hikeData.json */,
 				723745522A2A3AE7006DC6BC /* landmarkData.json */,
 			);
 			path = Resources;
@@ -215,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728193642A2A6B5D00E593C0 /* hikeData.json in Resources */,
 				72411EFB2A29D1EA00D46205 /* Preview Assets.xcassets in Resources */,
 				72411EF82A29D1EA00D46205 /* Assets.xcassets in Resources */,
 				723745532A2A3AE7006DC6BC /* landmarkData.json in Resources */,
